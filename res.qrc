@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/alarm.png</file>
+        <file>image/exit.png</file>
+        <file>image/screen.png</file>
+        <file>image/ez.jpg</file>
+        <file>LMonitorQss.qss</file>
+        <file>image/pation.png</file>
+        <file>image/guxiang.JPG</file>
+        <file>image/normal.png</file>
+        <file>image/ico.jpg</file>
+        <file>image/gx.png</file>
+        <file>image/monitor.png</file>
+        <file>image/info.txt</file>
+    </qresource>
+</RCC>

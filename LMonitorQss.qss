@@ -1,0 +1,69 @@
+﻿QComboBox {
+        border: 1px solid #bebebe;
+        padding: 1px 18px 1px 3px;
+        font: normal normal 16px "Microsoft YaHei";
+        color: cyan;
+        background: transparent;
+}
+
+
+QComboBox:editable{
+        background: transparent;
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable{
+        background: transparent;
+}
+
+QComboBox:!editable:on, QComboBox::drop-down:editable:on{
+        background: transparent;
+}
+
+QComboBox:!on{
+}
+
+QComboBox:on{ /* the popup opens */
+        color: cyan;
+        border-color: black;
+
+}
+
+QComboBox::drop-down{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+QComboBox::down-arrow {
+        image: url(:/image/);
+}
+
+
+QComboBox QAbstractItemView {
+        outline: 0;
+        color: red;
+        background-color: #F1F3F3;
+        font: normal normal 14px "Microsoft YaHei";
+}
+
+QComboBox QAbstractItemView::item {
+        height: 32px;
+        color: red;
+
+}
+
+QComboBox QAbstractItemView::item:hover {
+        color: #FFFFFF;
+        background-color: red;
+}
+
+QComboBox QAbstractItemView::item:selected {
+        color: red;
+        background-color: red;
+}
+
+
+
+
