@@ -1,4 +1,7 @@
 ﻿#pragma once
+// 在打印信息时会将信息所在的文件路径和代码行数显示出来
+#define myPrintInfo qDebug() << "[" << __FILE__ << ":" << __LINE__ << "]"
+
 // 底部欄按鈕編號
 
 enum BOTTOM_BUTTON_NO
